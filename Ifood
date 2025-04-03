@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wireframe do App iFood</title>
+  <style>
+      body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+          background-color: #f5f5f5;
+      }
+      .container {
+          width: 100%;
+          max-width: 400px;
+          margin: auto;
+          background: white;
+          border-radius: 8px;
+          box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+      header {
+          background-color: #e63946;
+          color: white;
+          padding: 20px;
+          text-align: center;
+          border-radius: 8px 8px 0 0;
+      }
+      .search-bar {
+          margin: 20px;
+          padding: 10px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+      }
+      .category {
+          display: flex;
+          justify-content: space-around;
+          padding: 10px;
+      }
+      .category div {
+          background: #f1faee;
+          padding: 10px;
+          border-radius: 5px;
+          flex: 1;
+          margin: 5px;
+          text-align: center;
+      }
+      .restaurant-list {
+          margin: 20px;
+      }
+      .restaurant {
+          background: #f1faee;
+          padding: 15px;
+          border-radius: 5px;
+          margin: 10px 0;
+      }
+      footer {
+          text-align: center;
+          padding: 10px;
+          background: #e63946;
+          color: white;
+          border-radius: 0 0 8px 8px;
+      }
+  </style>
+</head>
+<body>
+  <div class="container">
+      <header>
+          <h1>iFood</h1>
+      </header>
+      <input type="text" class="search-bar" placeholder="Buscar restaurantes ou pratos...">
+      <div class="category">
+          <div>Pizza</div>
+          <div>Sushi</div>
+          <div>Hamburguer</div>
+          <div>Salada</div>
+      </div>
+      <div class="restaurant-list">
+          <div class="restaurant">Restaurante A</div>
+          <div class="restaurant">Restaurante B</div>
+          <div class="restaurant">Restaurante C</div>
+      </div>
+      <footer>
+          <p>© 2025 iFood</p>
+      </footer>
+  </div>
+</body>
+</html>
